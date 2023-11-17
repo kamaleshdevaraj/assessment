@@ -1,0 +1,35 @@
+.ParentClassSignup {
+    display: flex;
+    justify-content:center;
+    padding: 1rem;  
+}
+.HeadingClass {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.ChildClass {
+    display: "flex";
+    align-items: start;
+    /* align-items: center; */
+    flex-direction: column;
+    padding: 10px;
+    box-shadow: rgba(0,0,0,0.24) 0px 3px 8px ;
+    /* padding: 1rem; */
+}
+.InputClass {
+  display: flex;
+  flex-direction: column;
+  padding: 1.5rem;
+  gap: 15px;
+}
+
+.Typography{
+    display: flex;
+    align-items: center;
+    justify-content:center ;
+    font-size:0.8rem; 
+}
+

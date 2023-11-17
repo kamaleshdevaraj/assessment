@@ -1,0 +1,505 @@
+body {
+    font-family: sans-serif;
+}
+
+
+.ParentHeader {
+  display: flex;
+  background-image: linear-gradient( rgb(250 234 234 / 15%), rgb(17 3 3)), url('./assets/FigmaAssets/krakenimages-376KN_ISplE-unsplash\ 1_1_129.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 95vh;
+  background-color: rgba(0,0,0,0.24);
+  clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+.headerlist {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: start;
+  gap: 2rem;
+  font-size: large;
+  color: white;
+  font-weight: 500;
+  height: 80px;
+}
+
+.headerimgtag {
+  height: 4.8rem;
+  width: 10rem;
+ margin-right: 50px;
+}
+
+.headerContainertext{
+    display: flex;
+    flex-direction: column;
+    width: 193px;
+    padding-left: 100px;
+    padding-top: 100px;
+}
+.headerButton{
+    width: 237px;
+    height: 4.3rem;
+    background-color: rgb(39, 100, 206);
+    color: white;
+    border: 1px solid black;
+    font-size: 25px;
+    cursor: pointer;
+}
+.textspan{
+    background:linear-gradient(93.35deg, #0b78c4 0.73%, #35ce4c 99.13%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+
+.textpara{
+    color: white;
+    font-weight: 600;
+    font-size: xxx-large;
+    width: 389px;
+}
+
+.OurFeature1rightCOntainer{
+     display: flex;
+    
+}
+.img1{
+ padding-top: 1rem;
+    padding-left: 1rem;
+}
+
+.para1{
+    color: grey;
+    width: 151px;
+    font-size: medium;
+    line-height: 24px;
+}
+.OurFeature1leftContainer{
+    border: 2px solid #197412;
+    padding-right: 6rem;
+    padding-left: 1rem;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.rigtcontainers{
+    background-color: rgb(232 229 221 / 8%);
+    padding-right: 6rem;
+    padding-left: 1rem;
+    
+}
+.OurFeature1rightCOntainer{
+    display: flex;
+    gap:4px
+}
+.product_service{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 20px;
+    padding-left: 30px;
+    padding-top: 10px;
+}
+
+.product_service_Container{
+    padding-right: 6rem;
+    padding-left: 1rem;
+}
+.product_service_list{
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem; 
+}
+.service_list{
+ border-bottom: 1px solid rgb(176, 176, 176) ;
+ padding: 8px;
+}
+
+.rigtcontainers1{
+    display: flex;
+    flex-direction: column;
+    gap:5rem;
+    padding-right: 6rem;
+    padding-left: 1rem;
+    padding-top: 1rem;
+}
+.rigtcontainers1ViewAll{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:4px;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    border: 2px solid blue;
+    border-radius: 10px;
+}
+
+.img2{
+    height: 2rem;
+    width: 2rem;
+}
+
+.second_ourFeatures{
+    margin-top: 2rem;
+    background: linear-gradient(93.35deg, #083453 0.73%, #51abcc 99.13%);
+   height: 28rem;
+}
+
+.para3 {
+    display: flex;
+    padding-left: 8rem;
+    color: rgb(224, 217, 217);
+    margin-bottom: 30px;
+}
+.second_ourFeatures_Card{
+  display: flex;
+  flex-wrap: wrap;
+  gap:2rem;
+  padding-left:15%;
+}
+
+.second_ourFeatures_Containers{
+    background-color: white;
+    padding-right: 6rem;
+    padding-left: 1rem;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.second_ourFeatures_Containers1{
+    background-color: white;
+    padding-right: 6rem;
+    padding-left: 1rem;
+}
+.second_ourFeatures_Containers4{
+    padding-right: 6rem;
+    padding-left: 1rem;
+  background-color: white;
+}
+
+.Calculator_section_heading{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1%;
+}
+
+.Calculator_section_body{
+    display: flex;
+    gap:2rem;
+    justify-content: space-around;
+   background-color: rgb(241, 236, 236);
+   margin: 30px;
+}
+
+.img4{
+    width: 20rem;
+    height: 5rem;
+}
+
+.Calculator_list1{
+    color: black;
+    border-bottom: 2px solid black;
+    font-weight: bold;
+}
+.Calculator_list2{
+    color: rgb(94, 88, 88);
+}
+.Calculator_list3{
+    height: 1.3rem;
+    width: 4rem;
+    border-radius: 20px;
+   background-color: #01192a;
+   color: white;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   font-size: small;
+}
+
+.Calculator_section_body_left{
+    display: flex;
+    flex-direction: column;
+    gap:2rem;
+}
+
+
+
+.percentage_style{
+    height: 1.5rem;
+    width: 5rem;
+    border-radius:5px;
+   background-color: white;
+   color: black;
+   border-radius: 1px solid  black;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   font-size: small;
+}
+
+.percentage_style1{
+    height: 2rem;
+    width: 5rem;
+    border-radius:5px;
+   background-color: white;
+   color: black;
+   border-radius: 1px solid  black;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   font-size: small;
+}
+
+progress {
+    width: 100%;
+}
+
+.img{
+    height: 1.4rem;
+    width: 1.4rem;
+}
+
+.Calculator_RightContainer{
+    background-color: #0b78c4;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 4rem;
+}
+
+.Calculator_RightContainer_img {
+    height: 14rem;
+    width: 14rem;
+}
+.Calculator_RightContainer_text {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 1rem;
+}
+
+.Calculator_RightContainer_text_parent{
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+}
+
+.Calculator_RightContainer_text1{
+    display: flex;
+    flex-direction: column;
+    gap:25px
+}
+
+.Calculator_RightContainer_button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 15px;
+    width: 349px;
+    background-color: #070737;
+    color: white;
+}
+
+.our_services {
+    margin-top: 2rem;
+    background: linear-gradient(93.35deg, #083453 0.73%, #51abcc 99.13%);
+   height: 30rem;
+}
+
+.OurFeature1rightCOntainer_service{
+    display: flex;
+    gap: 2rem;
+}
+
+.OurFeature1leftContainer_service{
+    border: 2px solid #197412;
+    padding-right: 6rem;
+    padding-left: 1rem;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    background-color: white;
+}
+
+.Branch_Atm_Section{
+    display: flex;
+    gap:2rem;
+    justify-content: space-between;
+    background-color: rgb(241, 236, 236);
+    margin-top: 80px;
+    width: 100%;
+}
+.Branch_Atm_Section_body_left {
+    display: flex;
+    flex-direction: column;
+    gap:0.5rem;
+    width: 40%;
+}
+
+.Branch_Atm_Section_body_Right{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 60%;
+}
+.Map_image {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    object-fit: cover;
+    height: -webkit-fill-available;
+    width: -webkit-fill-available;
+}
+
+.Branch_Atm_Section_body_left_Content {
+  display: flex;
+  flex-direction: column;
+  gap:10px;
+  padding-left: 3rem;
+}
+
+.Branch_Atm_Section_body_left_children {
+    height:2rem ;
+    width: 13rem;
+    border:1px solid black ;
+    background-color: white ;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 6px;
+}
+
+.Recent_works_children {
+ display: flex;
+  background-image: linear-gradient( transparent, rgb(57, 49, 98)), url('./assets/FigmaAssets/Project Cover 1_1_42.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width:-webkit-fill-available ;
+  height: 22rem;
+  flex-direction: column;
+}
+
+.Recent_works_children_card{
+    display: flex;
+    align-items: end;
+    justify-content: end;
+    height: auto;
+    height: 2rem;
+    width: 80%;
+}
+.Recent_works_children_card1{
+    display: flex;
+    align-items: end;
+    justify-content: start;
+    height: auto;
+    height: 2rem;
+    width: 80%;
+    padding-left: 6rem;
+}
+.Card_Content {
+    width: 20rem;
+    padding: 2rem;
+    background:#f8f8f8;
+    height: 12rem;
+}
+
+.Recent_works_children1{
+    display: flex;
+  background-image:  url('./assets/FigmaAssets/image\ 12_1_130.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width:-webkit-fill-available ;
+  height: 25rem;
+  margin-top: 4rem;
+  flex-direction: column;
+}
+
+.Card_Content1{
+    width: 34rem;
+    background:#f8f8f8;
+   
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+
+}
+
+.Card_Content1_list{
+    border-bottom: 1px solid gray;
+    padding: 0.5rem;
+    color: gray;
+
+}
+
+.headerButton1{
+    width: 237px;
+    height: 3rem;
+    background-color: rgb(39, 100, 206);
+    color: white;
+    border: 1px solid black;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.Three_Cards{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2rem;
+    gap:6rem;
+}
+
+
+.Three_Cards_Children{
+ display: flex;
+ flex-direction: column;
+ gap: 12px;
+ background-color: #f0f0f0 ;
+ padding: 2rem;
+ border-radius: 10px;
+}
+
+.footer_part {
+    margin-top: 2rem;
+    background: linear-gradient(93.35deg, #083453 0.73%, #51abcc 99.13%);
+   height: 25rem;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: column;
+   gap: 2rem;
+}
+
+.footer_part_children {
+ display: flex;
+ align-items: center;
+ justify-content: start;
+ padding-left: 1rem;
+ gap:4rem
+}
+
+.footer_para {
+    line-height: 35px;
+    color: white;
+    
+}
+
+.footer_social_icon{
+    display: flex;
+    width: 80%;
+    align-items: end;
+    justify-content: end;
+}
+
